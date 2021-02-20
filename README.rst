@@ -14,6 +14,8 @@ AlarmDecoder
 .. image:: https://travis-ci.org/nutechsoftware/alarmdecoder.svg?branch=master
     :target: https://travis-ci.org/nutechsoftware/alarmdecoder
 
+``1.13.10rc0`` points to ==> `d45be9f <https://github.com/nutechsoftware/alarmdecoder/commit/d45be9f53884ed21a84fb848b18c17fdfcf86170>`_
+
 -------
 Summary
 -------

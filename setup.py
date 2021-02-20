@@ -13,8 +13,8 @@ extra_requirements = []
 if sys.version_info < (3,):
     extra_requirements.append('future>=0.14.3')
 
-setup(name='alarmdecoder',
-    version='1.13.9',
+setup(name='alarmdecoder2',
+    version='1.13.10rc0',
     description='Python interface for the AlarmDecoder (AD2) family '
                 'of alarm devices which includes the AD2USB, AD2SERIAL and AD2PI.',
     long_description=readme(),
@@ -30,9 +30,8 @@ setup(name='alarmdecoder',
     ],
     keywords='alarmdecoder alarm decoder ad2 ad2usb ad2serial ad2pi security '
              'ademco dsc nutech',
-    url='http://github.com/nutechsoftware/alarmdecoder',
+    url='https://github.com/ajschmidt8/alarmdecoder/tree/dev',
     author='Nu Tech Software Solutions, Inc.',
-    author_email='general@support.nutech.com',
     license='MIT',
     packages=['alarmdecoder', 'alarmdecoder.devices', 'alarmdecoder.event', 'alarmdecoder.messages', 'alarmdecoder.messages.lrr'],
     install_requires=[
